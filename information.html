@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Information</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/buttons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Giocatori: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a style="color: white;" href="./information.html">Informazioni</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="article">
+
+            <p class="articleTitle">Informazioni</p>
+
+            <p class="articleDescription">QUESTE SONO LE INFORMAZIONI DEL NOSTRO SERVER PER POTERVI DARE
+                UNA MANO E POTERVI MUOVERVI MOLTO PIU' FACILMENTE.
+            </p>
+
+            <div class="infoblock">
+                <div class="barPurple"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">Regole Discord</p>
+                    <p class="infobDescription"> clicca sulla [+] per maggiori informazioni.</p>
+                    <p class="infobContent" id="content1">
+                     
+                        
+                        
+                        <img style="height: 300px;"
+                            src="https://i.imgur.com/X9dHcV4.png" alt="">
+                    </p>
+                </div>
+                <input class="infoblockButtonPurple" type="button" value="+" onclick="openContent1()" id="button1">
+            </div>
+
+            <div class="infoblock">
+                <div class="barRed"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">Regole Minecraft</p>
+                    <p class="infobDescription"> clicca sulla [+] per maggiori informazioni.</p>
+                    <p class="infobContent" id="content2">
+                        <img style="height: 400px;"
+                            src="https://i.imgur.com/Dfu4irc.png">
+                           ----------------------
+                           Questi Sono i Clienti Ammessi- (i client non presenti sulla lista non potranno essere utilizzati)
+                            Tlauncher
+                            Lunar Client
+                            Badlion Client
+                            Salwyrr Client
+                            PVP Lounge - Client
+                            CM Client
+                            Optifine
+
+                    </p>
+                </div>
+                <input class="infoblockButtonRed" type="button" value="+" onclick="openContent2()" id="button2">
+            </div>
+            
+            <div class="infoblock">
+                <div class="barYellow"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">VIP</p>
+                    <p class="infobDescription"> clicca sulla [+] per maggiori informazioni.
+                    </p>
+                    <p class="infobContent" id="content4">
+                        <img style="height: 400px;"
+                            src="https://i.imgur.com/akfibOB.png">
+                    </p>
+                </div>
+                <input class="infoblockButtonYellow" type="button" value="+" onclick="openContent4()" id="button4">
+            </div>
+
+        <div class="Discord">
+            <iframe src="https://discord.com/widget?id=873959479744561152&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

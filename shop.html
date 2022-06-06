@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/shop.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Giocatori: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./information.html">Informazioni</a></li>
+                    <li><a style="color: white;" href="./shop.html">Shop</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="article">
+
+            <h1 class="articleTitle">STORE VIP</h1>
+
+            <p class="articleDescription">
+                Non è possibile effettuare nessun tipo di rimborso dopo l'acquisto di un pacchetto,
+                 nel corso del tempo il pacchetto comprato può variare o essere disabilitato. I rimborsi forzati possono essere segnalati legalmente
+            </p>
+
+            <div class="frames">
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_br_gamepedia/images/1/11/Tronco_de_Carvalho.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        un Solo kit, Qualche Comando in più per il survival, e nella hub puoi usare la Fly
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip1()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP +
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/48/Coal_Ore_JE5_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Due Kit, Qualche Comando in più per il survival, Chat Colorata, e nella hub puoi usare la Fly
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip2()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP ++
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/19/Iron_Ore_JE6_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Tre Kit, quasi tutti i comandi utili per il survival, Chat colorata, e nella hub la Disguise con il pollo, è una room privata su discord, e nella hub puoi usare la Fly
+
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip3()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        Mega Vip
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Gold_Ore_JE7_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Tutti i kit e tutti i comandi utili per il survival, Chat Colorata, e nella hub puoi usare la fly, e avere tutti gli animali per il Disguise. e la metà delle particelle sulla skin, è una room privata su discord
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip4()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        Super Vip
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a9/Emerald_Ore_JE4_BE3.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Tutti i kit, Quasi Tutti i comandi utili per il survival, chat colorata, e nella hub puoi usare la Fly e avere quasi tutti gli animali per il disguise, è una room privata su discord
+
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip5()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        Xeno Vip
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/29/Diamond_Ore_JE5_BE5.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Tutti i kit con uno aggiuntivo creato solo per lui e tutti i comandi utili per il survival più un kit di partenza in Full Diamond, usare la fly nella hub, e avere tutti gli animali per il disguise nella hub e chat colorata e tutte le particelle sulla skin, è una room privata su discord
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip6()">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="extra">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

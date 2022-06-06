@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #3d1515;
+}
+
+.container {
+    width: 100%;
+}
+
+@font-face {
+    font-family: VampireWars;
+    src: url(../font/Vampire\ Wars.ttf);
+}
+
+.bannerTop {
+    background-image: url(../img/loadingOrNot.png);
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 260px;
+}
+
+.bannerTop a {
+    text-decoration: none;
+}
+
+.bannerTop p {
+    font-size: 60px;
+    color: #2b2b2d;
+    font-family: VampireWars;
+    display: flex;
+    justify-content: center;
+    margin-top: -173px;
+}
+
+.serverIp {
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    background-color: darkorange;
+    padding: 4px;
+    color: black;
+    font-weight: bolder;
+}
+
+.serverStatus {
+    font-weight: bold;
+
+}
+
+.playersOn {
+    font-weight: bold;
+    color: red;
+}
+
+.playersMax {
+    font-weight: bold;
+    color: red;
+}
+
+.serverIpText {
+    font-weight: bold;
+    color: white;
+}
+
+.bar {
+    height: 5px;
+    background-color: rgb(102, 29, 29);
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    margin-top: -90px;
+}
+
+.menu ul {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu li {
+    display: inline;
+    padding: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-family: VampireWars;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.barTwo {
+    height: 5px;
+    background-color: rgb(102, 29, 29);
+}
+
+.homeGallery {
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.textHGtwo {
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 190px;
+    font-family: VampireWars;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.textHGone {
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 190px;
+    font-family: VampireWars;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.hg1 {
+    border-right: #2b2b2b solid 2.5px;
+    background-image: url(../img/loadingOrNot.png);
+    float: left;
+    height: 250px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 15px;
+}
+
+.hg2 {
+    border-left: #2b2b2b solid 2.5px;
+    background-image: url(../img/loadingOrNot.png);
+    float: right;
+    height: 250px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+}
+
+.hg3 {
+    border-top: #2b2b2b solid 5px;
+    background-image: url(../img/loadingOrNot.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.middleSection {
+    background-color: #2b2b2b;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bannermiddle {
+    height: 400px;
+    padding-top: 40px;
+    width: 50%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.infoServer {
+    text-align: center;
+    list-style-position: inside;
+    border-radius: 15px;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    margin-left: 40vh;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    list-style: none;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.infoImage {
+    float: right;
+}
+
+.infoImage img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 270px;
+    margin-right: 40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.comments {
+    background-color: pink;
+}
+
+.co {
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 30px;
+    background-color: orange;
+}
+
+.co img {
+    width: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.cotitle {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.cotext {
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Play', sans-serif;
+}
+
+.buttonsSocial {
+    background-image: url(../img/loadingOrNot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 200px;
+}
+
+.butBox {
+    padding: 70px;
+}
+
+.butIcon {
+    float: left;
+    margin-right: 80px;
+}
+
+.butIcon img {
+    width: 64px;
+}
+
+.butBoxDiscord {
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 15px;
+    float: right;
+}
+
+.butIconDiscord img {
+    width: 60px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p {
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 1556px) {
+
+    .infoImage img {
+        margin-right: 20vh;
+    }
+
+    .infoServer {
+        margin-left: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 1302px) {
+
+    .infoImage img {
+        margin-right: 10vh;
+    }
+
+    .infoServer {
+        margin-left: 10vh;
+    }
+
+    .butBoxDiscord {
+        margin-top: -40px;
+    }
+
+    .butIcon {
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1146px) {
+
+    .infoImage img {
+        margin-right: 5vh;
+    }
+
+    .infoServer {
+        margin-left: 5vh;
+    }
+
+    .butBoxDiscord {
+        margin-top: -30px;
+        font-size: 0px;
+        background-color: #2b2b2b00;
+        float: left;
+    }
+
+    .butIcon {
+        float: left;
+        margin-right: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1132px) {
+
+    .butBox {
+        padding-top: 70px;
+    }
+
+    .butIcon {
+        float: none;
+        display: inline;
+        margin-right: 15%;
+    }
+
+    .butBoxDiscord {
+        margin-top: -100px;
+        font-size: 0px;
+        background-color: #2b2b2b00;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 1079px) {
+
+    .butBox {
+        padding: 30px;
+        padding-top: 70px;
+    }
+
+    .butIcon {
+        margin-right: 15%;
+    }
+
+    .menu li {
+        display: inline;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .homeGallery {
+        margin: 0px;
+        margin-top: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .textHGtwo {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-right: 40px;
+        padding-top: 190px;
+        font-family: VampireWars;
+        text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+    }
+    
+    .textHGone {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-right: 40px;
+        padding-top: 190px;
+        font-family: VampireWars;
+        text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+    }
+    
+    .hg1 {
+        border-right: none;
+        float: none;
+        width: 100%;
+        border-top-left-radius: 0px;
+    }
+    
+    .hg2 {
+        border-left: none;
+        float: none;
+        width: 100%;
+        border-top-right-radius: 0px;
+    }
+    
+    .hg3 {
+        border-top: none;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .infoImage img {
+        margin-right: 0vh;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .butIcon {
+        margin-right: 13%;
+    }
+
+    .infoImage img {
+        margin-right: 0vh;
+    }
+
+    .infoServer {
+        margin-left: 0vh;
+    }
+
+    .menu li {
+        display: inline;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 757px) {
+
+    .butIcon {
+        margin-right: 10%;
+    }
+
+    .infoImage {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .menu {
+        margin-top: -100px;
+    }
+    
+    .menu li {
+        display: inline;
+        padding: 10px;
+    }
+
+    .menu a{
+        font-size: 27px;
+    }
+    
+    .bannermiddle {
+        width: 100%;
+    }
+
+    .comments{
+        display: none;
+    }
+
+    .butIconDiscord img {
+        width: 60px;
+        float: right;
+        margin-right: -30px;
+    }
+
+}
+
+
+@media screen and (max-width: 560px) {
+    .butIcon {
+        margin-right: 5%;
+    }
+
+    .infoImage {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+
+}

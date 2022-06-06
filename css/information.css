@@ -1,0 +1,267 @@
+* {
+    font-family: 'Play', sans-serif;
+}
+
+.article {
+    min-height: 1000px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    float: left;
+    width: 67%;
+    border-top: solid 5px rgb(212, 117, 0);
+    border-bottom: solid 5px rgb(212, 117, 0);
+}
+
+.articleTitle {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.articleDescription {
+    font-size: 16px;
+    padding: 0px 20px 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.extra {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    float: right;
+    width: 25%;
+}
+
+.infoblock {
+    margin: 20px;
+    width: auto;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.infoblockText {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.infobTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.infobDescription {
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+
+.infobContent {
+    display: none;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barPurple {
+    height: 20px;
+    background-color: purple;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.infoblockButtonPurple {
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: purple;
+    border: none;
+    margin: 10px;
+    margin-top: -30px;
+    margin-left: 95%;
+    color: white;
+}
+
+.barRed {
+    height: 20px;
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.infoblockButtonRed {
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    margin: 10px;
+    margin-top: -30px;
+    margin-left: 95%;
+    color: white;
+}
+
+.barGreen {
+    height: 20px;
+    background-color: green;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.infoblockButtonGreen {
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    margin: 10px;
+    margin-top: -30px;
+    margin-left: 95%;
+    color: white;
+}
+
+.barYellow {
+    height: 20px;
+    background-color: goldenrod;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.infoblockButtonYellow {
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: none;
+    margin: 10px;
+    margin-top: -30px;
+    margin-left: 95%;
+    color: white;
+}
+
+.infoblockButtonPurple:hover {
+    background-color: rgb(68, 0, 68);
+}
+
+.infoblockButtonRed:hover {
+    background-color: darkred;
+}
+
+.infoblockButtonGreen:hover {
+    background-color: darkgreen;
+}
+
+.infoblockButtonYellow:hover {
+    background-color: darkgoldenrod;
+}
+
+.tutorialVideo {
+    padding: 20px;
+}
+
+.video {
+    display: inline-block;
+}
+
+.video iframe {
+    width: 500px;
+}
+
+@media screen and (max-width: 1450px) {
+
+    .extra {
+        margin-right: 20px;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 93%;
+    }
+
+    .tutorialVideo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 975px) {
+
+    .article {
+        margin-left: 5%;
+        float: none;
+        width: 90%;
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 90%;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .article {
+        margin-left: 0%;
+        float: none;
+        width: 100%;
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 89%;
+    }
+
+    .video iframe{
+        width: auto;
+        height: auto;
+    }
+
+}

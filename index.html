@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Player: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+        
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./information.html">Informazioni</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="homeGallery">
+
+            <div class="homeGalleryTwo">
+
+                <div id="image_Gfirst" class="hg1">
+                    <p id="text_Gfirst" class="textHGtwo"></p>
+                </div>
+
+                <div id="image_Gsecond" class="hg2">
+                    <p id="text_Gsecond" class="textHGtwo"></p>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="homeGalleryOne">
+
+                <div id="image_Gtrird" class="hg3">
+                    <p id="text_Gtrird" class="textHGone"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="middleSection">
+            <div class="bannermiddle">
+
+                <div class="infoServer">
+                    <p style="color:red">DESCRIPTION SERVER<strong><span id="typeServer"></span></strong></p>
+                    <br>
+                    <p style="color:aqua;">DESCRIPTION SERVER</p>
+                    <br>
+                    <ul style="list-style-type: disc;">
+                        <li style="color:gold">DESCRIPTION SERVER</li>
+              
+               </div>
+
+            </div>
+
+
+            <div class="infoImage">
+                <img src="img/person2.png" alt="">
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+
+        <div class="comments">
+
+            <div class="co">
+                <img id="firstPlayerImage" src="" alt="">
+                <p id="firstPlayerName" class="cotitle">account</p>
+                <p id="firstPlayerComment" class="cotext">DESCRIPTION</p>
+            </div>
+
+            <div class="co">
+                <img id="secondPlayerImage" src="" alt="">
+                <p id="secondPlayerName" class="cotitle">account</p>
+                <p id="secondPlayerComment" class="cotext">DESCRIPTION</p>
+            </div>
+
+            <div class="co">
+                <img id="trirdPlayerImage" src="" alt="">
+                <p id="trirdPlayerName" class="cotitle">account</p>
+                <p id="trirdtPlayerComment" class="cotext">DESCRIPTION</p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+        <div id="bannerSocialImage" class="buttonsSocial">
+
+            <div class="butBox">
+
+                <div class="butIcon">
+                    <a id="urlFacebook" href="#"><img src="" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlTwiiter" href="#"><img src="" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlInstagram" href="#"><img src="" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlYoutube" href="#"><img src="" alt=""></a>
+                </div>
+
+                <a id="discordInvite" href="#">
+                    <div class="butBoxDiscord">
+
+                        <div class="butIconDiscord">
+                            <img src="img/social5.png" alt="">
+                        </div>
+
+                        <p>DESCRIPTION</p>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>

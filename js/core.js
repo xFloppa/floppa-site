@@ -6,7 +6,7 @@ window.onload = function () {
     let title = '';
 
     //Server Ip (counter)
-    var serverIp = 'mc.pixelbloody.it';
+    var serverIp = 'mc.servername.com';
     var serverIpPort = 25565;
 
     //Banner image (url) 
@@ -14,31 +14,31 @@ window.onload = function () {
 
     //--------------- Home Gallery ---------------
     //Firs text / image (url)
-    var text_Gfirst = 'KitPvP';
+    var text_Gfirst = 'DESCRIPTION';
     var image_Gfirst = 'https://i.imgur.com/OkfQb7q.png';
     //Second text / image (url)
-    var text_Gsecond = 'Survival'
+    var text_Gsecond = 'DESCRIPTION'
     var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png';
     //Third text / image (url)
-    var text_Gtrird = 'NUOVA APERTURA'
+    var text_Gtrird = 'DESCRIPTION'
     var image_Gtrird = 'https://i.imgur.com/7JP74WT.png';
     //--------------------------------------------
 
     //Type Server (FullPVP, MiniGame, Survival, and others...)
-    var typeServer = 'Survival e KitPvP';
+    var typeServer = 'DEFAULT';
 
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
     //Firs player nick / comment text
-    var firstPlayerName = 'xfloppa';
-    var firstPlayerComment = "Owner Principale";
+    var firstPlayerName = 'account';
+    var firstPlayerComment = "DESCRIPTION";
     //Third player nick / comment text
-    var trirdPlayerName = 'frank05';
-    var trirdtPlayerComment = "Secondo Owner";
+    var trirdPlayerName = 'account';
+    var trirdtPlayerComment = "DESCRIPTION";
     //--------------------------------------------
 
     //Social media links / banner (url)
-    var discordInvite = "https://discord.gg/4dueWkUKjJ";
+    var discordInvite = "https://discord.gg/NRY8PqH8Vy";
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
 
 

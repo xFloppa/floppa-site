@@ -6,40 +6,40 @@ window.onload = function () {
     let title = '';
 
     //Server Ip (counter)
-    var serverIp = 'SERVER IP';
-    var serverIpPort = 25565; //your port
+    var serverIp = 'mc.pixelbloody.it';
+    var serverIpPort = 25565;
 
     //Banner image (url) 
-    var bannerTop = 'linkbanner'; 
+    var bannerTop = 'https://i.imgur.com/k0MtSCb.png';
 
     //--------------- Home Gallery ---------------
     //Firs text / image (url)
-    var text_Gfirst = '';
-    var image_Gfirst = '';
+    var text_Gfirst = 'KitPvP';
+    var image_Gfirst = 'https://i.imgur.com/OkfQb7q.png';
     //Second text / image (url)
-    var text_Gsecond = ''
-    var image_Gsecond = '';
+    var text_Gsecond = 'Survival'
+    var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png';
     //Third text / image (url)
-    var text_Gtrird = ''
-    var image_Gtrird = '';
+    var text_Gtrird = 'NUOVA APERTURA'
+    var image_Gtrird = 'https://i.imgur.com/7JP74WT.png';
     //--------------------------------------------
 
     //Type Server (FullPVP, MiniGame, Survival, and others...)
-    var typeServer = '';
+    var typeServer = 'Survival e KitPvP';
 
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
     //Firs player nick / comment text
-    var firstPlayerName = 'account';
-    var firstPlayerComment = "DESCRIPTION";
+    var firstPlayerName = 'xfloppa';
+    var firstPlayerComment = "Owner Principale";
     //Third player nick / comment text
-    var trirdPlayerName = 'account';
-    var trirdtPlayerComment = "DESCRIPTION";
+    var trirdPlayerName = 'frank05';
+    var trirdtPlayerComment = "Secondo Owner";
     //--------------------------------------------
 
     //Social media links / banner (url)
-    var discordInvite = "";
-    var bannerSocialImage = "";
+    var discordInvite = "https://discord.gg/4dueWkUKjJ";
+    var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
 
 
     //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
@@ -107,5 +107,3 @@ function copyIp() {
     let ip = document.getElementById('serverIpText').innerHTML;
     navigator.clipboard.writeText(ip);
 }
-
-//THANKS
